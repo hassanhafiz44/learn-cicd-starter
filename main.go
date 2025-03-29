@@ -96,8 +96,3 @@ func main() {
 	log.Printf("Serving on port: %s\n", port)
 	log.Fatal(srv.ListenAndServe())
 }
-
-func unused() {
-	// This is a placeholder function to ensure the main function is not empty.
-	// You can remove this function if you add actual code to the main function.
-}
